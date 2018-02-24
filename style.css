@@ -3,6 +3,8 @@
 body {
     font-family: 'Titillium', sans-serif;
     background: #91AAB4;
+    background: url('background.jpeg') no-repeat;
+    background-size: cover;
 }
 
 #grid {
@@ -17,6 +19,7 @@ body {
 
 #headerImage img {
     border-radius: 50%;
+    z-index:2;
 }
 
 #headerImage {
