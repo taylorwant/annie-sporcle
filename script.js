@@ -37,7 +37,7 @@ window.addEventListener("keyup", e => {
         input.value=""
     }
     if (adjectives.includes(string)){
-        let word=document.createElement('h3')
+        let word=document.createElement('p')
         word.innerHTML=string
         answerDiv.appendChild(word)
         let input=document.querySelector('#input')
