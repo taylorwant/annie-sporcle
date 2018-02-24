@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Sacramento|Titillium+Web:300');
+
+body {
+    font-family: 'Titillium', sans-serif;
+    background: #91AAB4;
+}
+
+#grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin-left: 15%;
+    background: #CBDBD7;
+    margin-top: 5%;
+}
+
+#headerImage img {
+    border-radius: 50%;
+}
+
+#headerImage {
+    background: #CBDBD7;
+    text-align: center;
+    padding-top: 6%;
+}
+
+#header {
+    align-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #CBDBD7;
+    text-align: center;
+    padding-top: 10%;
+}
+
+#header h1 {
+    font-size: 60px;
+    font-family: 'Sacramento', cursive;
+
+}
+
+#input {
+    text-align: center;
+    margin-left: 8%;
+}
+
+#answers {
+    min-height: 400px;
+}
+
+#answers{
+    /*grid-columns: span 2;*/
+    text-align:center;
+}
